@@ -83,7 +83,7 @@ SLOT 1 $0400
              
              lda #000h
              jsr send_byte
-             lda #0100h       ;send size
+             lda #010h       ;send size
              jsr send_byte
              lda #001h
              jsr send_byte   ;send PRG 
